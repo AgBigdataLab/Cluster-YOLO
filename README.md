@@ -11,13 +11,13 @@ The main files are as follows:
 
     output/ - Output result folder.
 
-(2) ultralytics/ - Minimal runtime source code kept for the current model structure.
+(2) ultralytics/ - Source code kept for the current model structure.
 
 (3) weight/ - Model weight folder.
 
     Cluste-YOLO.pt - Current detection weight file used by the script.
 
-(4) detect.py - Main detection script for image prediction.
+(4) detect.py - Detection script for image prediction.
 
 Default folder behavior:
 
