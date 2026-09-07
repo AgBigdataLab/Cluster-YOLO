@@ -15,13 +15,13 @@ The main files are as follows:
 
 (3) weight/ - Model weight folder.
 
-    Cluste-YOLO.pt - Current detection weight file used by the script.
+    InfloClusterNet.pt - Current detection weight file used by the script.
 
 (4) detect.py - Detection script for image prediction.
 
 Default folder behavior:
 
-- The script loads weights from: weight/Cluster-YOLO.pt
+- The script loads weights from: weight/InfloClusterNet.pt
 - The script reads images from: samples/input
 - The script saves results to: samples/output
 
@@ -44,3 +44,5 @@ Some dependencies of the Jupyter notebooks:
 - torch
 - numpy
 - opencv-python
+- torch>=1.13.0
+- torchvision>=0.14.0
